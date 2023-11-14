@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <Title> Gurudwara Management System </Title>
+        <link rel="stylesheet" type="text/css" href="../public/form.css">
+        <style>
+            /* Add your styles here */
+        </style>
+    </head>
+    <body>
+        <div class="contact-title"> 
+            <h1>Gurudwara management System</h1>
+            <h2>Waheguru ji ka Khalsa - Waheguru ji ki Fateh</h2>
+        </div>
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="">
+                <input name="name" type="text" class="form-control" placeholder="Received thanks from">
+                <br>
+                <input name="amount" id="amount" type="text" class="form-control" placeholder="Sum of rupees" required>
+                <br>
+                <input name="reason" type="text" class="form-control" placeholder="For the purpose of" required>
+                <div class="checkbox-wrapper">
+                    <label for="isSeva">Is Seva:</label>
+                    <input type="checkbox" id="isSeva" name="isSeva" checked>
+                </div> 
+                <input type="submit" class="form-control submit" value="Submit">
+                <br>
+            </form>
+        </div>
+        <script>
+            document.getElementById("isSeva").addEventListener("change", function () {
+                var namePlaceholder = this.checked ? "Received thanks from" : "Ammount sent to ";    
+                document.getElementsByName("name")[0].placeholder = namePlaceholder;
+            });
+        </script>
+        <script src="index.js"></script>
+    </body>
+</html>

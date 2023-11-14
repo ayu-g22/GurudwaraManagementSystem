@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('khanda.jpg'); /* Specify the path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px; 
+    padding: 20px;
+    border: 1px solid rgb(187, 121, 22);
+    background-color: rgb(217, 153, 15);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.container h2 {
+    margin: 0;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1057a4;
+    color: #fff;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #1057a4;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('khanda.jpg'); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: transparent;
+    color:  #dc8b29;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: transparent;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.dashboard {
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.funds-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.total-incoming-funds,
+.total-outgoing-funds,
+.available-balance {
+    flex: 1;
+    padding: 10px;
+    background-color:  #dc8b29;
+    border: 1px solid  #dc8b29;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #06227f;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../public/adminpage.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Dashboard</h1>
+    </header>
+    <div class="container">
+        <section class="dashboard">
+            <h2>Funds Overview</h2>
+            <div class="funds-info">
+                <div class="total-incoming-funds">
+                    <h3>Total Incoming Funds</h3>
+                    <p class="income"><%= inc %></p> 
+                </div>
+                <div class="total-outgoing-funds">
+                    <h3>Total Outgoing Funds</h3>
+                    <p class="outgoing"><%= out %></p>
+                </div>
+                <div class="available-balance">
+                    <h3>Available Balance</h3>
+                    <p class="available"><%= total %></p> 
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
