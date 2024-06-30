@@ -1,0 +1,1 @@
+"Gurudwara Management System" is a project I developed for a local gurudwara to help manage donation and expense receipts online. The system provides an efficient way for the management to track donations and expenses, ensuring transparency and ease of access. It includes features for recording transactions and generating reports, streamlining the financial management process.
